@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.App > div {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+ul, li{
+  margin: 0;
+  padding: 0;
+}
+
+.list-item{
+  cursor: pointer;
+  list-style: none;
+}
+
+.list-item:hover{
+  color: blue;
+}
